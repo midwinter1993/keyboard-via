@@ -72,8 +72,10 @@ mac_fn[3][7] = "DF(2)"
 # ----------------------------
 # Esc：不再进入 Bootloader，恢复为 Escape
 mac_fn[0][0] = "KC_ESCAPE"
-# Backspace：Bootloader
-mac_fn[0][13] = "QK_BOOT"
+# Backspace：Delete
+mac_fn[0][13] = "KC_DELETE"
+# \：Bootloader
+mac_fn[1][13] = "QK_BOOT"
 
 # ============================================================
 # Layer 2：Windows 基础层
@@ -130,8 +132,10 @@ win_fn[3][7] = "DF(0)"
 # ----------------------------
 # Esc：不再进入 Bootloader，恢复为 Escape
 win_fn[0][0] = "KC_ESCAPE"
-# Backspace：Bootloader
-win_fn[0][13] = "QK_BOOT"
+# Backspace：Delete
+win_fn[0][13] = "KC_DELETE"
+# \：Bootloader
+win_fn[1][13] = "QK_BOOT"
 
 # ============================================================
 # 写入四层

@@ -58,9 +58,9 @@ mac_fn[2][9] = "KC_RIGHT"  # L
 # 导航键：U/I/O/P/Y/B = Home/`/End/~/PgUp/PgDn
 # ----------------------------
 mac_fn[1][7] = "KC_HOME"   # U
-mac_fn[1][8] = "KC_GRV"    # I → 反引号 `
+mac_fn[1][8] = "LSFT(KC_GRV)" # I → ~
 mac_fn[1][9] = "KC_END"    # O
-mac_fn[1][10] = "LSFT(KC_GRV)" # P → ~
+mac_fn[1][10] = "KC_GRV"   # P → 反引号 `
 mac_fn[1][6] = "KC_PGUP"   # Y → Page Up
 mac_fn[3][5] = "KC_PGDN"   # B → Page Down
 
@@ -118,9 +118,9 @@ win_fn[2][9] = "KC_RIGHT"  # L
 # 导航键：U/I/O/P/Y/B = Home/`/End/~/PgUp/PgDn
 # ----------------------------
 win_fn[1][7] = "KC_HOME"   # U
-win_fn[1][8] = "KC_GRV"    # I → 反引号 `
+win_fn[1][8] = "LSFT(KC_GRV)" # I → ~
 win_fn[1][9] = "KC_END"    # O
-win_fn[1][10] = "LSFT(KC_GRV)" # P → ~
+win_fn[1][10] = "KC_GRV"   # P → 反引号 `
 win_fn[1][6] = "KC_PGUP"   # Y → Page Up
 win_fn[3][5] = "KC_PGDN"   # B → Page Down
 

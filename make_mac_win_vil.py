@@ -63,6 +63,8 @@ mac_fn[1][9] = "KC_END"    # O
 mac_fn[1][10] = "KC_GRV"   # P → 反引号 `
 mac_fn[1][6] = "KC_PGUP"   # Y → Page Up
 mac_fn[3][5] = "KC_PGDN"   # B → Page Down
+mac_fn[3][8] = "KC_VOLD"   # , → Volume Down
+mac_fn[3][9] = "KC_VOLU"   # . → Volume Up
 
 # M：将 Windows Layer 2 设为默认层
 mac_fn[3][7] = "DF(2)"
@@ -123,6 +125,8 @@ win_fn[1][9] = "KC_END"    # O
 win_fn[1][10] = "KC_GRV"   # P → 反引号 `
 win_fn[1][6] = "KC_PGUP"   # Y → Page Up
 win_fn[3][5] = "KC_PGDN"   # B → Page Down
+win_fn[3][8] = "KC_VOLD"   # , → Volume Down
+win_fn[3][9] = "KC_VOLU"   # . → Volume Up
 
 # M：将 Mac Layer 0 设为默认层
 win_fn[3][7] = "DF(0)"

@@ -66,7 +66,7 @@ mac_fn[3][5] = "KC_PGDN"   # B → Page Down
 mac_fn[3][8] = "KC_VOLD"   # , → Volume Down
 mac_fn[3][9] = "KC_VOLU"   # . → Volume Up
 mac_fn[1][0] = "LGUI(KC_GRV)" # Tab → Cmd+` 切换窗口
-mac_fn[2][4] = "LALT(KC_F)"   # F → Alt/Option+F
+mac_fn[2][4] = "LALT(KC_F)"   # F → Alt/Option+F（zellij floating panel）
 
 # M：将 Windows Layer 2 设为默认层
 mac_fn[3][7] = "DF(2)"
@@ -129,7 +129,7 @@ win_fn[1][6] = "KC_PGUP"   # Y → Page Up
 win_fn[3][5] = "KC_PGDN"   # B → Page Down
 win_fn[3][8] = "KC_VOLD"   # , → Volume Down
 win_fn[3][9] = "KC_VOLU"   # . → Volume Up
-win_fn[2][4] = "LALT(KC_F)" # F → Alt/Option+F
+win_fn[2][4] = "LALT(KC_F)" # F → Alt/Option+F（zellij floating panel）
 
 # M：将 Mac Layer 0 设为默认层
 win_fn[3][7] = "DF(0)"
